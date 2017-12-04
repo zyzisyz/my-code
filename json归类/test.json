@@ -1,0 +1,30 @@
+[
+    {
+        "authorId": "a",
+        "timestamp": 1
+    },
+    {
+        "authorId": "a",
+        "timestamp": 2
+    },
+    {
+        "authorId": "a",
+        "timestamp": 3
+    },
+    {
+        "authorId": "b",
+        "timestamp": 1
+    },
+    {
+        "authorId": "b",
+        "timestamp": 2
+    },
+    {
+        "authorId": "b",
+        "timestamp": 3
+    },
+    {
+        "authorId": "b",
+        "timestamp": 4
+    }
+]
