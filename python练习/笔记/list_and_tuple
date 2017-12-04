@@ -1,0 +1,22 @@
+list 是一种python内置的数据类型，有序的数据集合，可以随时添加和删除其中的元素。
+
+for example：
+>>>classmates=['Michael','Bob','Tracy']
+>>>classmates
+['Michael','Bob','Tracy']
+可以用len()获得元素的个数
+
+增加用insert
+>>>classmates.insert(1,'Jack')
+>>>classmates
+['Michael','Jack','Bob','Tracy']
+
+追加到元素末尾用：append('你要加的元素')
+
+pop(i)删除你要删除的元素
+
+tuple（元组）
+
+>>>classmates=('Micheal','Bob','Tracy')
+用的是括号()
+和list非常相似，但是tuple一旦初始就不能修改

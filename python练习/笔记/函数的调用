@@ -1,0 +1,15 @@
+如果您已经把my_abs()的函数定义保存为abstest.py文件了，那么在该文件下启动python解释器，用 from abstest import my_abs来导入该函数
+函数可以返回多个值，但实际上是返回了一个tuple
+
+默认参数
+如果
+def power(x, n=2):
+    s = 1
+    while n>0:
+        n-=1
+        s*=x
+    return s
+这样我们使用
+
+>>>pow(5)
+25

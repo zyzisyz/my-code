@@ -1,0 +1,21 @@
+dict（字典）
+具有极快的查找素的，在其他语言称为map
+>>>d={'Micheal'：95，‘Bob':75,'Tracy':85}
+>>>d['Michael']
+95
+
+这是一种key-value的存储方式，一个key只能对应一个value，如果key不存在，则会报错。
+因此通过in来判断key是否存在
+>>>'Thomas' in d
+False
+
+删除key的方法用pop()
+d.pop('Bob’)
+
+set
+set和key类似，也是一组key的集合，但不存储value。由于key不能重复，所以在set中，么有有重复的key
+>>>s = set([1,2,3])
+>>>s
+{1,2,3}
+增加key用add(key)
+删除key用remove(key)
